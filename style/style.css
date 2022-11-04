@@ -1,0 +1,38 @@
+.all{
+    display: flex;
+    width: 100%
+}
+
+.all .box .inner-box{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.button1 button{
+    border-radius: 30px;
+    margin-right: 900px;
+    cursor: pointer;
+    background-color:#0056c1;
+    border:1px solid #0056c1;
+    color:white;
+    width: 11%;
+    height: 25px;
+}
+
+.header{
+    margin-top:20px;
+    display: flex;
+
+}
+.button1:hover button{
+    border:1px solid #0056c1;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    color:#0056c1;
+}
+.right{
+    margin-left: 1400px;
+    margin:50 0px;
+    display: flex;
+    
+}
